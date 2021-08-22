@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/fontawesome.css"
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/vendors/css/glightbox.min.css">
 </head>
 
 <body>
     <!--Start the NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-light menu">
+    <nav class="navbar navbar-expand-lg navbar-light menu shadow fixed-top">
         <div class="container">
             <div dir="ltr">
                 <a class="navbar-brand" href="#">
@@ -51,7 +52,7 @@
                             <a class="nav-link" href="#">ارتباط با من</a>
                         </li>
                     </ul>
-                    <button type="button" class="rounded-pill btn-rounded justify-content-start" >09139015261
+                    <button type="button" class="rounded-pill btn-rounded justify-content-start">09139015261
                         <span><i class="fas fa-phone-alt"></i></span>
                     </button>
                 </div>
@@ -60,8 +61,60 @@
     </nav>
     <!--End of the NAVBAR-->
 
+    <!--Start the intro section-->
+    <section id="home" class="intro-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <!--Start the content for the intro-->
+                <div class="col-md-6 intros">
+                    <h1 class="display-2">
+                        <span class="display-2--intro">
+                            سلام به این وبسایت خوش امدید.
+                        </span>
+                        <span class="display-2--description lh-base">
+                            این یک قالب بوت استرپی است که با سس نوشته شده .
+                            و کاملا واکنش گرا است . برای دیدن کارهای بیشتر به گیت هاب من سر بزنید.
+                        </span>
+                    </h1>
+                    <button type="button" class="rounded-pill btn-rounded justify-content-start">لمسش کن
+                        <span><i class="fas fa-arrow-left"></i></span>
+                    </button>
+                </div>
+                <!--Start the content for the video-->
+                <div class="col-md-6 intros text-start">
+                    <div class="video-box">
+                        <img src="images/Coding-intro.png" alt="video illutration" class="img-fluid">
+                        <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
+                            <span><i class="fas fa-play-circle"></i></span>
+                            <span class="border-animation border-animation--border-1"></span>
+                            <span class="border-animation border-animation--border-2"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffffff" fill-opacity="1"
+                d="M0,128L160,256L320,96L480,256L640,128L800,224L960,128L1120,160L1280,64L1440,160L1440,320L1280,320L1120,320L960,320L800,320L640,320L480,320L320,320L160,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!--End of the intro section-->
+
+
 
     <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/vendors/js/glightbox.min.js"></script>
+    <script type="text/javascript">
+        const lightbox = GLightbox({
+            'href': 'https://www.youtube.com/watch?v=Ga6RYejo6Hk',
+            'type': 'video',
+            'source': 'youtube', //vimeo, youtube or local
+            'width': 900,
+            'outoPlayVideos': 'true'
+        });
+    </script>
 </body>
 
 </html>
