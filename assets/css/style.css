@@ -11164,7 +11164,8 @@ textarea.form-control-lg {
 }
 .display-2--intro {
   display: inline-block;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 2.5rem;
   color: #fff;
 }
 .display-2--description {
@@ -11179,6 +11180,53 @@ textarea.form-control-lg {
     font-size: 1.5rem;
     display: inline-block;
   }
+}
+
+.heading-line::before {
+  content: "";
+  width: 12rem;
+  height: 0.1rem;
+  display: block;
+  background-color: #9926f0;
+  margin: 0 auto;
+}
+
+.heading-line::after {
+  content: "";
+  width: 5rem;
+  padding-top: 0.3rem;
+  height: 0.2rem;
+  display: block;
+  background-color: #9926f0;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.display-3 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.display-3--title {
+  font-family: iran-sans;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+  background-image: linear-gradient(to right, #9926f0, #d122e3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+  .display-3--title {
+    font-size: 1.8rem;
+  }
+}
+
+.border-left {
+  border-left: 0.1rem solid #dee2e6;
+  height: 100%;
 }
 
 .menu {
@@ -11229,6 +11277,59 @@ textarea.form-control-lg {
 }
 .border-animation:hover {
   background-color: #533175;
+}
+
+.companies {
+  padding: 0 0 5rem 0;
+}
+.companies__logo-box {
+  max-width: 100%;
+  height: 8rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  border-top: 1px solid rgba(194, 194, 194, 0.5);
+  text-align: center;
+  position: relative;
+}
+.companies__logo-box img {
+  height: 100%;
+}
+.companies__logo-box img:hover {
+  filter: grayscale(120);
+}
+
+.services {
+  position: relative;
+  padding: 1rem 0;
+}
+.services__content {
+  padding: 1rem;
+  margin-top: 0;
+}
+.services__content p {
+  font-size: 0.8rem;
+}
+@media (min-width: 992px) {
+  .services__content p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .services__content {
+    margin-top: 5rem;
+  }
+}
+.services__content .icon {
+  font-size: 1.5rem;
+  color: #9926f0;
+}
+@media (min-width: 992px) {
+  .services__content .icon {
+    font-size: 2.5rem;
+  }
+}
+.services__pic {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
