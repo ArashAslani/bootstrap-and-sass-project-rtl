@@ -1,0 +1,9 @@
+@use '../custom' as *;
+
+.acc-btn{
+    position: relative ;
+    &::after{
+        position: absolute ;
+        left: 1rem;
+    }
+}

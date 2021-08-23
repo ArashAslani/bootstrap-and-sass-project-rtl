@@ -30,9 +30,7 @@
     &__picture{
         width: 6rem;
         height: 6rem;
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%,-50%);
+        @include absoluteCeter;
 
         img{
             border: 0.35rem solid rgba($primary, 0.7);
