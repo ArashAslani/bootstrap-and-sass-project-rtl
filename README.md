@@ -8,8 +8,8 @@
 
 <br/>
 
-[<img  align="left" alt="template img" width="1000px" src="https://github.com/LashaOn/bootstrap-and-sass-project-rtl/tree/master/images/readme/1.jpg">]
-[<img  align="left" alt="template img" width="1000px" src="https://github.com/LashaOn/bootstrap-and-sass-project-rtl/tree/master/images/readme/2.jpg">]
-[<img  align="left" alt="template img" width="1000px" src="https://github.com/LashaOn/bootstrap-and-sass-project-rtl/tree/master/images/readme/3.jpg">]
-[<img  align="left" alt="template img" width="1000px" src="https://github.com/LashaOn/bootstrap-and-sass-project-rtl/tree/master/images/readme/4.jpg">]
-[<img  align="left" alt="template img" width="1000px" src="https://github.com/LashaOn/bootstrap-and-sass-project-rtl/tree/master/images/readme/5.jpg">]
+[<img  align="left" alt="template img" width="1000px" src="/LashaOn/bootstrap-and-sass-project-rtl/blob/master/images/readme/1.JPG?raw=true">]
+[<img  align="left" alt="template img" width="1000px" src="/LashaOn/bootstrap-and-sass-project-rtl/blob/master/images/readme/2.JPG?raw=true">]
+[<img  align="left" alt="template img" width="1000px" src="/LashaOn/bootstrap-and-sass-project-rtl/blob/master/images/readme/3.JPG?raw=true">]
+[<img  align="left" alt="template img" width="1000px" src="/LashaOn/bootstrap-and-sass-project-rtl/blob/master/images/readme/4.JPG?raw=true">]
+[<img  align="left" alt="template img" width="1000px" src="/LashaOn/bootstrap-and-sass-project-rtl/blob/master/images/readme/5.JPG?raw=true">]
